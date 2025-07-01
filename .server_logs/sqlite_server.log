@@ -1,0 +1,24 @@
+Starting SQLite tactical duel game schema setup...
+SQLite database already exists at myapp.db
+Database is accessible and working.
+
+SQLite tactical duel game DB schema initialized!
+Tables created: games, players, units
+Database: myapp.db
+Location: /home/kavia/workspace/code-generation/gridtactix-118083-118092/database/myapp.db
+
+To use with Node.js viewer, run: source db_visualizer/sqlite.env
+
+To connect to the database, use one of the following methods:
+1. Python: sqlite3.connect('myapp.db')
+2. Connection string: sqlite:////home/kavia/workspace/code-generation/gridtactix-118083-118092/database/myapp.db
+3. Direct file access: /home/kavia/workspace/code-generation/gridtactix-118083-118092/database/myapp.db
+
+To inspect schema, launch:
+  python3 db_shell.py
+
+Script completed successfully.
+
+> simple-db-viewer@1.0.0 start
+> node server.js --host 0.0.0.0
+
